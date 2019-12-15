@@ -1,0 +1,15 @@
+const {
+  PORT,
+  DATABASE_PASSWORD,
+  DATABASE_NAME,
+  DATABASE_HOST,
+  DATABASE_USER
+} = require("./environment");
+
+module.exports = {
+  PORT,
+  DATABASE_PASSWORD,
+  DATABASE_NAME,
+  DATABASE_HOST,
+  DATABASE_USER
+};
